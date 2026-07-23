@@ -1,0 +1,11 @@
+{
+ "id": "nordzucker_food",
+ "name": "Nordzucker Klein Wanzleben",
+ "sector": "Food",
+ "country": "DE",
+ "forecast_emissions": 107000,
+ "free_allocation": 112000,
+ "current_allowances": 8000,
+ "emissions_source": "Climate TRACE v5.5 (facility, monthly)",
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

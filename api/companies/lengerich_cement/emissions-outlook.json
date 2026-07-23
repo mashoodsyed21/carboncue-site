@@ -1,0 +1,154 @@
+{
+ "company_id": "lengerich_cement",
+ "company": "Lengerich Cement Plant",
+ "unit": "tCO2",
+ "year": 2026,
+ "source": "climate_trace_actuals + model_forecast",
+ "free_allocation": 690000,
+ "annual_emissions_p50": 886053,
+ "annual_deficit_p50": 196053,
+ "months": [
+  {
+   "month": "2026-01",
+   "label": "Jan",
+   "isForecast": false,
+   "p10": 90188,
+   "p50": 90188,
+   "p90": 90188,
+   "cumP10": 90188,
+   "cumP50": 90188,
+   "cumP90": 90188
+  },
+  {
+   "month": "2026-02",
+   "label": "Feb",
+   "isForecast": true,
+   "p10": 70535,
+   "p50": 74247,
+   "p90": 77959,
+   "cumP10": 160722,
+   "cumP50": 164435,
+   "cumP90": 168147
+  },
+  {
+   "month": "2026-03",
+   "label": "Mar",
+   "isForecast": true,
+   "p10": 70311,
+   "p50": 74012,
+   "p90": 77712,
+   "cumP10": 231034,
+   "cumP50": 238446,
+   "cumP90": 245859
+  },
+  {
+   "month": "2026-04",
+   "label": "Apr",
+   "isForecast": true,
+   "p10": 70002,
+   "p50": 73686,
+   "p90": 77370,
+   "cumP10": 301035,
+   "cumP50": 312132,
+   "cumP90": 323230
+  },
+  {
+   "month": "2026-05",
+   "label": "May",
+   "isForecast": true,
+   "p10": 63482,
+   "p50": 70379,
+   "p90": 77276,
+   "cumP10": 364517,
+   "cumP50": 382512,
+   "cumP90": 400506
+  },
+  {
+   "month": "2026-06",
+   "label": "Jun",
+   "isForecast": true,
+   "p10": 62697,
+   "p50": 70446,
+   "p90": 78195,
+   "cumP10": 427214,
+   "cumP50": 452958,
+   "cumP90": 478701
+  },
+  {
+   "month": "2026-07",
+   "label": "Jul",
+   "isForecast": true,
+   "p10": 72292,
+   "p50": 82337,
+   "p90": 92383,
+   "cumP10": 499507,
+   "cumP50": 535295,
+   "cumP90": 571084
+  },
+  {
+   "month": "2026-08",
+   "label": "Aug",
+   "isForecast": true,
+   "p10": 54220,
+   "p50": 62610,
+   "p90": 70999,
+   "cumP10": 553727,
+   "cumP50": 597905,
+   "cumP90": 642083
+  },
+  {
+   "month": "2026-09",
+   "label": "Sep",
+   "isForecast": true,
+   "p10": 63369,
+   "p50": 74202,
+   "p90": 85036,
+   "cumP10": 617095,
+   "cumP50": 672107,
+   "cumP90": 727119
+  },
+  {
+   "month": "2026-10",
+   "label": "Oct",
+   "isForecast": true,
+   "p10": 62655,
+   "p50": 74412,
+   "p90": 86169,
+   "cumP10": 679750,
+   "cumP50": 746519,
+   "cumP90": 813288
+  },
+  {
+   "month": "2026-11",
+   "label": "Nov",
+   "isForecast": true,
+   "p10": 59433,
+   "p50": 71606,
+   "p90": 83779,
+   "cumP10": 739183,
+   "cumP50": 818125,
+   "cumP90": 897067
+  },
+  {
+   "month": "2026-12",
+   "label": "Dec",
+   "isForecast": true,
+   "p10": 55565,
+   "p50": 67928,
+   "p90": 80291,
+   "cumP10": 794748,
+   "cumP50": 886053,
+   "cumP90": 977358
+  }
+ ],
+ "overshoot": {
+  "startMonth": "2026-09",
+  "startLabel": "Sep",
+  "expectedMonth": "2026-10",
+  "expectedLabel": "Oct",
+  "endMonth": "2026-11",
+  "endLabel": "Nov",
+  "label": "Sep–Nov"
+ },
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

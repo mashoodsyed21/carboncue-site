@@ -1,0 +1,11 @@
+{
+ "id": "deuna_cement",
+ "name": "Deuna Cement Plant",
+ "sector": "Cement",
+ "country": "DE",
+ "forecast_emissions": 344341,
+ "free_allocation": 285000,
+ "current_allowances": 15000,
+ "emissions_source": "Climate TRACE v5.5 (facility, monthly)",
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

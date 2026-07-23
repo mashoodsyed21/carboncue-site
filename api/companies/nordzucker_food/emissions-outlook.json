@@ -1,0 +1,146 @@
+{
+ "company_id": "nordzucker_food",
+ "company": "Nordzucker Klein Wanzleben",
+ "unit": "tCO2",
+ "year": 2026,
+ "source": "climate_trace_actuals + model_forecast",
+ "free_allocation": 112000,
+ "annual_emissions_p50": 105809,
+ "annual_deficit_p50": -6191,
+ "months": [
+  {
+   "month": "2026-01",
+   "label": "Jan",
+   "isForecast": false,
+   "p10": 9390,
+   "p50": 9390,
+   "p90": 9390,
+   "cumP10": 9390,
+   "cumP50": 9390,
+   "cumP90": 9390
+  },
+  {
+   "month": "2026-02",
+   "label": "Feb",
+   "isForecast": true,
+   "p10": 8871,
+   "p50": 9338,
+   "p90": 9805,
+   "cumP10": 18261,
+   "cumP50": 18728,
+   "cumP90": 19195
+  },
+  {
+   "month": "2026-03",
+   "label": "Mar",
+   "isForecast": true,
+   "p10": 8902,
+   "p50": 9371,
+   "p90": 9839,
+   "cumP10": 27163,
+   "cumP50": 28099,
+   "cumP90": 29034
+  },
+  {
+   "month": "2026-04",
+   "label": "Apr",
+   "isForecast": true,
+   "p10": 8071,
+   "p50": 8496,
+   "p90": 8921,
+   "cumP10": 35235,
+   "cumP50": 36595,
+   "cumP90": 37955
+  },
+  {
+   "month": "2026-05",
+   "label": "May",
+   "isForecast": true,
+   "p10": 7948,
+   "p50": 8812,
+   "p90": 9675,
+   "cumP10": 43183,
+   "cumP50": 45407,
+   "cumP90": 47631
+  },
+  {
+   "month": "2026-06",
+   "label": "Jun",
+   "isForecast": true,
+   "p10": 7716,
+   "p50": 8670,
+   "p90": 9624,
+   "cumP10": 50899,
+   "cumP50": 54077,
+   "cumP90": 57254
+  },
+  {
+   "month": "2026-07",
+   "label": "Jul",
+   "isForecast": true,
+   "p10": 7272,
+   "p50": 8282,
+   "p90": 9292,
+   "cumP10": 58171,
+   "cumP50": 62359,
+   "cumP90": 66547
+  },
+  {
+   "month": "2026-08",
+   "label": "Aug",
+   "isForecast": true,
+   "p10": 6827,
+   "p50": 7884,
+   "p90": 8940,
+   "cumP10": 64998,
+   "cumP50": 70242,
+   "cumP90": 75487
+  },
+  {
+   "month": "2026-09",
+   "label": "Sep",
+   "isForecast": true,
+   "p10": 7043,
+   "p50": 8247,
+   "p90": 9452,
+   "cumP10": 72041,
+   "cumP50": 78490,
+   "cumP90": 84938
+  },
+  {
+   "month": "2026-10",
+   "label": "Oct",
+   "isForecast": true,
+   "p10": 7452,
+   "p50": 8850,
+   "p90": 10248,
+   "cumP10": 79493,
+   "cumP50": 87340,
+   "cumP90": 95187
+  },
+  {
+   "month": "2026-11",
+   "label": "Nov",
+   "isForecast": true,
+   "p10": 7578,
+   "p50": 9130,
+   "p90": 10682,
+   "cumP10": 87071,
+   "cumP50": 96470,
+   "cumP90": 105869
+  },
+  {
+   "month": "2026-12",
+   "label": "Dec",
+   "isForecast": true,
+   "p10": 7640,
+   "p50": 9339,
+   "p90": 11039,
+   "cumP10": 94711,
+   "cumP50": 105809,
+   "cumP90": 116908
+  }
+ ],
+ "overshoot": null,
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

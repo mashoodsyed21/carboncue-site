@@ -1,0 +1,352 @@
+{
+ "status": "ok",
+ "company_id": "uxheim_cement",
+ "forecast_source": "cache",
+ "position": {
+  "required_allowances": 42493,
+  "available_allowances": 35000,
+  "net_position": -7493,
+  "status": "SHORT"
+ },
+ "decision": {
+  "currentPrice": 80.1,
+  "forecastMode": "live",
+  "forecast": [
+   {
+    "month": "2026-06",
+    "label": "Jun",
+    "p05": 76.2,
+    "p25": 78.4,
+    "p50": 79.7,
+    "p75": 81.0,
+    "p95": 83.1
+   },
+   {
+    "month": "2026-07",
+    "label": "Jul",
+    "p05": 71.0,
+    "p25": 77.2,
+    "p50": 79.4,
+    "p75": 81.5,
+    "p95": 87.7
+   },
+   {
+    "month": "2026-08",
+    "label": "Aug",
+    "p05": 68.6,
+    "p25": 74.8,
+    "p50": 78.6,
+    "p75": 82.5,
+    "p95": 88.7
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Services - France",
+    "importance": 100,
+    "direction": 0.051
+   },
+   {
+    "name": "Harmonised index of consumer prices – HICP - Housing in Europe",
+    "importance": 99,
+    "direction": 0.03
+   },
+   {
+    "name": "Stock levels for oil products in France",
+    "importance": 97,
+    "direction": -0.153
+   },
+   {
+    "name": "Harmonised index of consumer prices – 2015=100 in Europe",
+    "importance": 95,
+    "direction": -0.216
+   },
+   {
+    "name": "Commodity price – Index in Unit prices – Index",
+    "importance": 94,
+    "direction": 0.409
+   },
+   {
+    "name": "Industry, manufacturing - Europe",
+    "importance": 91,
+    "direction": 0.012
+   },
+   {
+    "name": "Exchange Rates - Romania",
+    "importance": 91,
+    "direction": 0.463
+   },
+   {
+    "name": "Stock levels for oil products in Romania",
+    "importance": 91,
+    "direction": 0.067
+   }
+  ],
+  "driverSource": "external market signals (live)",
+  "channels": [
+   {
+    "key": "SPOT",
+    "effCost": 80.8,
+    "expectedPrice": 80.2,
+    "fillProb": 1.0,
+    "available": 10000000,
+    "recommendedVolume": 7493,
+    "reason": "Secondary spot — immediate fill, no counterparty risk; priciest per tonne.",
+    "rank": 1
+   },
+   {
+    "key": "AUCTION",
+    "effCost": 80.1,
+    "expectedPrice": 79.2,
+    "fillProb": 0.8,
+    "available": 22571000,
+    "recommendedVolume": 0,
+    "reason": "EEX primary auction — cheapest risk-adjusted route; sealed-bid, cap the bid.",
+    "rank": 2
+   }
+  ],
+  "auctions": [
+   {
+    "id": "cap3-2026-06-01",
+    "type": "CAP3",
+    "date": "2026-06-01",
+    "label": "Mon 01 Jun",
+    "volume": 3198500,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   },
+   {
+    "id": "cap3-2026-06-02",
+    "type": "CAP3",
+    "date": "2026-06-02",
+    "label": "Tue 02 Jun",
+    "volume": 3198500,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   },
+   {
+    "id": "cap3-2026-06-04",
+    "type": "CAP3",
+    "date": "2026-06-04",
+    "label": "Thu 04 Jun",
+    "volume": 3198500,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   },
+   {
+    "id": "ger-2026-06-05",
+    "type": "GERMANY",
+    "date": "2026-06-05",
+    "label": "Fri 05 Jun",
+    "volume": 1000000,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   },
+   {
+    "id": "cap3-2026-06-08",
+    "type": "CAP3",
+    "date": "2026-06-08",
+    "label": "Mon 08 Jun",
+    "volume": 3198500,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   },
+   {
+    "id": "cap3-2026-06-09",
+    "type": "CAP3",
+    "date": "2026-06-09",
+    "label": "Tue 09 Jun",
+    "volume": 3198500,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   },
+   {
+    "id": "pol-2026-06-10",
+    "type": "POLAND",
+    "date": "2026-06-10",
+    "label": "Wed 10 Jun",
+    "volume": 1380000,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   },
+   {
+    "id": "cap3-2026-06-11",
+    "type": "CAP3",
+    "date": "2026-06-11",
+    "label": "Thu 11 Jun",
+    "volume": 3198500,
+    "expectedClearing": 79.7,
+    "recommendedBid": 81.0,
+    "targetVolume": 0,
+    "msrAffected": false
+   }
+  ],
+  "matches": [
+   {
+    "id": "offer-1",
+    "counterparty": "NordCement GmbH",
+    "counterpartySector": "Cement",
+    "side": "buy",
+    "volume": 15000,
+    "price": 69.9,
+    "timing": "WAIT",
+    "fit": 92,
+    "rationale": "OTC · rating 0.92"
+   },
+   {
+    "id": "offer-2",
+    "counterparty": "GreenSteel AG",
+    "counterpartySector": "Steel",
+    "side": "buy",
+    "volume": 8000,
+    "price": 69.3,
+    "timing": "WAIT",
+    "fit": 88,
+    "rationale": "OTC · rating 0.88"
+   },
+   {
+    "id": "offer-3",
+    "counterparty": "Energie Broker Wien",
+    "counterpartySector": "Power",
+    "side": "buy",
+    "volume": 30000,
+    "price": 70.5,
+    "timing": "WAIT",
+    "fit": 95,
+    "rationale": "BROKER · rating 0.95"
+   },
+   {
+    "id": "offer-4",
+    "counterparty": "AlpinePaper GmbH",
+    "counterpartySector": "Paper",
+    "side": "buy",
+    "volume": 25000,
+    "price": 70.0,
+    "timing": "WAIT",
+    "fit": 85,
+    "rationale": "OTC · rating 0.85"
+   }
+  ],
+  "plan": {
+   "deficitVolume": 7493,
+   "deficit": 7493,
+   "side": "SHORT",
+   "action": "LADDER",
+   "confidence": "high",
+   "headline": "Ladder 7.5k t — balanced across windows",
+   "strategy": "BALANCED",
+   "channelMix": [
+    {
+     "key": "SPOT",
+     "volume": 7493
+    }
+   ],
+   "tranches": [
+    {
+     "id": "t0",
+     "when": "Now",
+     "channel": "SPOT",
+     "volume": 3747,
+     "price": 80.1,
+     "maxBid": null,
+     "status": "EXECUTE",
+     "reason": "CVaR optimum allocates 50% at spot; EPU elevated: volatility amplified 1.8x; Dai 2020 EPU CRISIS (level=CRISIS) without spike -> cap any sin"
+    },
+    {
+     "id": "t1",
+     "when": "Now",
+     "channel": "SPOT",
+     "volume": 3746,
+     "price": 78.7,
+     "maxBid": null,
+     "status": "EXECUTE",
+     "reason": "CVaR optimum allocates 50% at spot; EPU elevated: volatility amplified 1.8x; Dai 2020 EPU CRISIS (level=CRISIS) without spike -> cap any sin"
+    }
+   ],
+   "expectedTotal": 594652,
+   "expectedSpend": 594652,
+   "worstCase": 705744,
+   "worstCaseSpend": 705744,
+   "savingsVsBuyAllNow": 5537,
+   "savingsVsNaive": 5537,
+   "savingsVsYearEnd": 5537,
+   "triggers": [
+    "[EPU] EPU: 456 (CRISIS), z-score: -0.3 vs 12m mean 492 | CRISIS: strongly consider freezing purchases",
+    "[DRIVERS] Driver monitor inactive. Using neutral allocation.",
+    "[DEMAND] Composite +0.1% YoY. Cement +1.1%. High divergence (1.00). Steel, Chemicals, Food, Glass, Other, Paper stable.",
+    "[DEMAND DIVERGENCE] Sectors pulling apart (1.00). Consider sector-specific strategies.",
+    "[RISK] 19 peers in cement/small (0 flat-emission skipped). CV=0.05, predictability=0.96 -> lambda=0.17. Trend -0.3% YoY, seasonality 0.56.",
+    "[PROCUREMENT] BALANCED: 7,493 tons, expected cost EUR594,652, savings EUR+5,537 vs spot.",
+    "[BUDGET] EUR2,000,000 allocated: 74,267 tons reduced @ EUR24/ton. EUR200,000 held in reserve."
+   ]
+  },
+  "position": {
+   "deficit": 7493,
+   "side": "SHORT",
+   "required_allowances": 42493,
+   "available_allowances": 35000,
+   "net_position": -7493,
+   "status": "SHORT"
+  },
+  "enhancement": {
+   "regime": {
+    "level": "GREEN",
+    "multiplier": 1.0,
+    "advisory": "No structural breaks detected. in-house model forecast trustworthy."
+   },
+   "driverBias": {
+    "signal": "NEUTRAL",
+    "bias": 0.0
+   },
+   "demand": {
+    "signal": "NEUTRAL",
+    "pressure": 0.013,
+    "compositeYoY": 0.07,
+    "divergence": 1.0,
+    "reasoning": "Composite +0.1% YoY. Cement +1.1%. High divergence (1.00). Steel, Chemicals, Food, Glass, Other, Paper stable."
+   },
+   "riskProfile": {
+    "sector": "cement",
+    "size": "small",
+    "lambda": 0.165,
+    "predictability": 0.956,
+    "peers": 19
+   },
+   "structural": null,
+   "alerts": [
+    "[EPU] EPU: 456 (CRISIS), z-score: -0.3 vs 12m mean 492 | CRISIS: strongly consider freezing purchases",
+    "[DRIVERS] Driver monitor inactive. Using neutral allocation.",
+    "[DEMAND] Composite +0.1% YoY. Cement +1.1%. High divergence (1.00). Steel, Chemicals, Food, Glass, Other, Paper stable.",
+    "[DEMAND DIVERGENCE] Sectors pulling apart (1.00). Consider sector-specific strategies.",
+    "[RISK] 19 peers in cement/small (0 flat-emission skipped). CV=0.05, predictability=0.96 -> lambda=0.17. Trend -0.3% YoY, seasonality 0.56.",
+    "[PROCUREMENT] BALANCED: 7,493 tons, expected cost EUR594,652, savings EUR+5,537 vs spot.",
+    "[BUDGET] EUR2,000,000 allocated: 74,267 tons reduced @ EUR24/ton. EUR200,000 held in reserve."
+   ],
+   "budget": {
+    "total_budget": 2000000.0,
+    "allocated_now": 300134.69999999995,
+    "reduction_tons": 74266.66666666666,
+    "reserve": 200000.0
+   },
+   "backtestMape": 2.707366
+  }
+ },
+ "engine": {
+  "connected": true
+ },
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

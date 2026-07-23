@@ -1,0 +1,154 @@
+{
+ "company_id": "salzgitter_steel",
+ "company": "Salzgitter Flachstahl",
+ "unit": "tCO2",
+ "year": 2026,
+ "source": "climate_trace_actuals + model_forecast",
+ "free_allocation": 6400000,
+ "annual_emissions_p50": 7570402,
+ "annual_deficit_p50": 1170402,
+ "months": [
+  {
+   "month": "2026-01",
+   "label": "Jan",
+   "isForecast": false,
+   "p10": 608276,
+   "p50": 608276,
+   "p90": 608276,
+   "cumP10": 608276,
+   "cumP50": 608276,
+   "cumP90": 608276
+  },
+  {
+   "month": "2026-02",
+   "label": "Feb",
+   "isForecast": true,
+   "p10": 616705,
+   "p50": 649163,
+   "p90": 681621,
+   "cumP10": 1224981,
+   "cumP50": 1257439,
+   "cumP90": 1289897
+  },
+  {
+   "month": "2026-03",
+   "label": "Mar",
+   "isForecast": true,
+   "p10": 586599,
+   "p50": 617473,
+   "p90": 648346,
+   "cumP10": 1811580,
+   "cumP50": 1874912,
+   "cumP90": 1938244
+  },
+  {
+   "month": "2026-04",
+   "label": "Apr",
+   "isForecast": true,
+   "p10": 606997,
+   "p50": 638944,
+   "p90": 670891,
+   "cumP10": 2418577,
+   "cumP50": 2513856,
+   "cumP90": 2609135
+  },
+  {
+   "month": "2026-05",
+   "label": "May",
+   "isForecast": true,
+   "p10": 608892,
+   "p50": 675046,
+   "p90": 741201,
+   "cumP10": 3027468,
+   "cumP50": 3188902,
+   "cumP90": 3350335
+  },
+  {
+   "month": "2026-06",
+   "label": "Jun",
+   "isForecast": true,
+   "p10": 582322,
+   "p50": 654294,
+   "p90": 726267,
+   "cumP10": 3609790,
+   "cumP50": 3843196,
+   "cumP90": 4076602
+  },
+  {
+   "month": "2026-07",
+   "label": "Jul",
+   "isForecast": true,
+   "p10": 561288,
+   "p50": 639280,
+   "p90": 717272,
+   "cumP10": 4171078,
+   "cumP50": 4482476,
+   "cumP90": 4793874
+  },
+  {
+   "month": "2026-08",
+   "label": "Aug",
+   "isForecast": true,
+   "p10": 510099,
+   "p50": 589029,
+   "p90": 667958,
+   "cumP10": 4681177,
+   "cumP50": 5071504,
+   "cumP90": 5461832
+  },
+  {
+   "month": "2026-09",
+   "label": "Sep",
+   "isForecast": true,
+   "p10": 513485,
+   "p50": 601270,
+   "p90": 689056,
+   "cumP10": 5194661,
+   "cumP50": 5672775,
+   "cumP90": 6150888
+  },
+  {
+   "month": "2026-10",
+   "label": "Oct",
+   "isForecast": true,
+   "p10": 550304,
+   "p50": 653568,
+   "p90": 756831,
+   "cumP10": 5744965,
+   "cumP50": 6326342,
+   "cumP90": 6907719
+  },
+  {
+   "month": "2026-11",
+   "label": "Nov",
+   "isForecast": true,
+   "p10": 517693,
+   "p50": 623727,
+   "p90": 729761,
+   "cumP10": 6262659,
+   "cumP50": 6950069,
+   "cumP90": 7637480
+  },
+  {
+   "month": "2026-12",
+   "label": "Dec",
+   "isForecast": true,
+   "p10": 507432,
+   "p50": 620333,
+   "p90": 733234,
+   "cumP10": 6770091,
+   "cumP50": 7570402,
+   "cumP90": 8370714
+  }
+ ],
+ "overshoot": {
+  "startMonth": "2026-10",
+  "startLabel": "Oct",
+  "expectedMonth": "2026-11",
+  "expectedLabel": "Nov",
+  "endMonth": "2026-12",
+  "endLabel": "Dec",
+  "label": "Oct–Dec"
+ },
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

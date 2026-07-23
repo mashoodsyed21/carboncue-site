@@ -1,0 +1,11 @@
+{
+ "id": "uxheim_cement",
+ "name": "Uxheim Cement Plant",
+ "sector": "Cement",
+ "country": "DE",
+ "forecast_emissions": 41375,
+ "free_allocation": 33000,
+ "current_allowances": 2000,
+ "emissions_source": "Climate TRACE v5.5 (facility, monthly)",
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

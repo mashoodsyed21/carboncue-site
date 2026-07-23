@@ -1,0 +1,154 @@
+{
+ "company_id": "uxheim_cement",
+ "company": "Uxheim Cement Plant",
+ "unit": "tCO2",
+ "year": 2026,
+ "source": "climate_trace_actuals + model_forecast",
+ "free_allocation": 33000,
+ "annual_emissions_p50": 42493,
+ "annual_deficit_p50": 9493,
+ "months": [
+  {
+   "month": "2026-01",
+   "label": "Jan",
+   "isForecast": false,
+   "p10": 3815,
+   "p50": 3815,
+   "p90": 3815,
+   "cumP10": 3815,
+   "cumP50": 3815,
+   "cumP90": 3815
+  },
+  {
+   "month": "2026-02",
+   "label": "Feb",
+   "isForecast": true,
+   "p10": 3527,
+   "p50": 3713,
+   "p90": 3898,
+   "cumP10": 7342,
+   "cumP50": 7528,
+   "cumP90": 7713
+  },
+  {
+   "month": "2026-03",
+   "label": "Mar",
+   "isForecast": true,
+   "p10": 3529,
+   "p50": 3715,
+   "p90": 3901,
+   "cumP10": 10871,
+   "cumP50": 11242,
+   "cumP90": 11614
+  },
+  {
+   "month": "2026-04",
+   "label": "Apr",
+   "isForecast": true,
+   "p10": 3537,
+   "p50": 3723,
+   "p90": 3909,
+   "cumP10": 14408,
+   "cumP50": 14966,
+   "cumP90": 15523
+  },
+  {
+   "month": "2026-05",
+   "label": "May",
+   "isForecast": true,
+   "p10": 3217,
+   "p50": 3566,
+   "p90": 3916,
+   "cumP10": 17625,
+   "cumP50": 18532,
+   "cumP90": 19439
+  },
+  {
+   "month": "2026-06",
+   "label": "Jun",
+   "isForecast": true,
+   "p10": 3079,
+   "p50": 3460,
+   "p90": 3841,
+   "cumP10": 20704,
+   "cumP50": 21992,
+   "cumP90": 23279
+  },
+  {
+   "month": "2026-07",
+   "label": "Jul",
+   "isForecast": true,
+   "p10": 3130,
+   "p50": 3565,
+   "p90": 4000,
+   "cumP10": 23834,
+   "cumP50": 25556,
+   "cumP90": 27279
+  },
+  {
+   "month": "2026-08",
+   "label": "Aug",
+   "isForecast": true,
+   "p10": 3088,
+   "p50": 3566,
+   "p90": 4044,
+   "cumP10": 26922,
+   "cumP50": 29123,
+   "cumP90": 31323
+  },
+  {
+   "month": "2026-09",
+   "label": "Sep",
+   "isForecast": true,
+   "p10": 2948,
+   "p50": 3451,
+   "p90": 3955,
+   "cumP10": 29870,
+   "cumP50": 32574,
+   "cumP90": 35279
+  },
+  {
+   "month": "2026-10",
+   "label": "Oct",
+   "isForecast": true,
+   "p10": 3002,
+   "p50": 3566,
+   "p90": 4129,
+   "cumP10": 32872,
+   "cumP50": 36140,
+   "cumP90": 39408
+  },
+  {
+   "month": "2026-11",
+   "label": "Nov",
+   "isForecast": true,
+   "p10": 2864,
+   "p50": 3451,
+   "p90": 4038,
+   "cumP10": 35737,
+   "cumP50": 39591,
+   "cumP90": 43445
+  },
+  {
+   "month": "2026-12",
+   "label": "Dec",
+   "isForecast": true,
+   "p10": 2374,
+   "p50": 2902,
+   "p90": 3430,
+   "cumP10": 38111,
+   "cumP50": 42493,
+   "cumP90": 46876
+  }
+ ],
+ "overshoot": {
+  "startMonth": "2026-09",
+  "startLabel": "Sep",
+  "expectedMonth": "2026-10",
+  "expectedLabel": "Oct",
+  "endMonth": "2026-11",
+  "endLabel": "Nov",
+  "label": "Sep–Nov"
+ },
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

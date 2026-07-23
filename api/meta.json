@@ -1,0 +1,12 @@
+{
+ "product": "CarbonCue",
+ "kind": "static API snapshot",
+ "companies": [
+  "salzgitter_steel",
+  "lengerich_cement",
+  "deuna_cement",
+  "nordzucker_food",
+  "uxheim_cement"
+ ],
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}

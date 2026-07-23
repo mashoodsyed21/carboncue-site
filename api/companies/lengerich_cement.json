@@ -1,0 +1,11 @@
+{
+ "id": "lengerich_cement",
+ "name": "Lengerich Cement Plant",
+ "sector": "Cement",
+ "country": "DE",
+ "forecast_emissions": 846693,
+ "free_allocation": 690000,
+ "current_allowances": 30000,
+ "emissions_source": "Climate TRACE v5.5 (facility, monthly)",
+ "baked_at": "2026-07-23T14:35:46+00:00"
+}
